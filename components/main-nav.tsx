@@ -37,7 +37,10 @@ export default function MainNav({
           </Link>
         ))}
       </nav>
-      <button className="md:hidden" onClick={() => setShowMobileMenu(!showMobileMenu)}>
+      <button
+        className="md:hidden"
+        onClick={() => setShowMobileMenu(!showMobileMenu)}
+      >
         <span>メニュー</span>
       </button>
       {showMobileMenu && (

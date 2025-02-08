@@ -18,13 +18,13 @@ export default function MarketingLayout({
   return(
     <div>
       <header className="container z-40 bg-background">
-        <div className="flex h-20 items-center justify-between py-6">
+        <div className="h-20 py-6 flex items-center justify-between">
           <MainNav items={marketing.mainNav} />
           <nav>
             <Link
               href={"/login"}
               className={cn(
-                buttonVariants({ variant: 'secondary', size: 'sm'}),
+                buttonVariants({ variant: "secondary", size: "sm" }),
                 "px-4"
               )}
             >
