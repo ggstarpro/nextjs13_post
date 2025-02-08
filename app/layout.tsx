@@ -6,35 +6,36 @@ import { siteConfig } from "@/config/site";
 
 const fontNotoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s | ${siteConfig.name}`
-  },
-  description: siteConfig.description,
-  keywords: ["Next.js", "React", "shadcn/ui"],
-  authors: [
-    {
-      name: '名前です。',
-      url: siteConfig.url
-    }
-  ],
-  openGraph: {
-    type: 'website',
-    locale: 'ja',
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    siteName: siteConfig.name,
-    // images: []
-  },
-  twitter: {
-    card: "summary_large_image",
-    description: siteConfig.description,
-    images: [`${siteConfig.url}/og.jpg`],
-    creator: 'テスト',
-  }
-};
+//  バージョン15
+// export const metadata: Metadata = {
+//   title: {
+//     default: siteConfig.name,
+//     template: `%s | ${siteConfig.name}`
+//   },
+//   description: siteConfig.description,
+//   keywords: ["Next.js", "React", "shadcn/ui"],
+//   authors: [
+//     {
+//       name: '名前です。',
+//       url: siteConfig.url
+//     }
+//   ],
+//   openGraph: {
+//     type: 'website',
+//     locale: 'ja',
+//     url: siteConfig.url,
+//     title: siteConfig.name,
+//     description: siteConfig.description,
+//     siteName: siteConfig.name,
+//     // images: []
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     description: siteConfig.description,
+//     images: [`${siteConfig.url}/og.jpg`],
+//     creator: 'テスト',
+//   }
+// };
 
 export default function RootLayout({
   children,

@@ -3,7 +3,7 @@ import SiteFooter from "@/components/site-footer"
 import { buttonVariants } from "@/components/ui/button"
 import { marketing } from "@/config/marketing"
 import { cn } from "@/lib/utils"
-import { Metadata } from "next"
+// import { Metadata } from "next"
 import Link from "next/link"
 
 // export const metadata: Metadata = {
